@@ -2,6 +2,8 @@ const express = require('express');
 const mongoose = require('mongoose');
 var cors = require('cors');
 
+const PORT = process.env.PORT || 3003;
+
 const ToDoSchema = require('./schemas/ToDoSchema');
 
 /*
@@ -86,7 +88,7 @@ server.delete('/todo/:id', async (req, res)=>{
 })
 
 // Inicia o servidor
-server.listen(3003, ()=>console.log('Servidor iniciado na porta http://localhost:3003.'));
+server.listen(backend_nodejs_unidade4_deploy, ()=>console.log('Servidor iniciado na porta http://localhost:' + PORT));
 // CTRL+C para parar a execução do servidor
 
 
