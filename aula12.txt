@@ -1,0 +1,15 @@
+Node JS
+
+Pode ser definido como um ambiente de execução Javascript server-side
+
+
+CRIAÇÃO DE APIs COM O EXPRESS (biblioteca)
+
+instalação do yarn
+npm install --global yarn
+
+iniciar yarn
+yarn init -y
+
+resolver problemas ao iniciar o yarn
+Set-ExecutionPolicy -ExecutionPolicy Bypass
