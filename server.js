@@ -88,7 +88,7 @@ server.delete('/todo/:id', async (req, res)=>{
 })
 
 // Inicia o servidor
-server.listen(backend_nodejs_unidade4_deploy, ()=>console.log('Servidor iniciado na porta http://localhost:' + PORT));
+server.listen(PORT, ()=>console.log('Servidor iniciado na porta http://localhost:' + PORT));
 // CTRL+C para parar a execução do servidor
 
 
